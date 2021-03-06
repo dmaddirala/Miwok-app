@@ -3,9 +3,11 @@ package com.example.miwok;
 import java.util.ArrayList;
 
 public class Word {
+
     private String mMiwokTranslation;
     private String mDefaultTranslation;
     private int mResourceId = -1;
+    private String name;
 
     public Word(String defaultTranslation, String miwokTranslation) {
         mMiwokTranslation = miwokTranslation;
